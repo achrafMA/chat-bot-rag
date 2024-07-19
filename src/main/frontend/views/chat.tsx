@@ -18,7 +18,12 @@ export default function Chat(){
           <div>
               <TextField style={{width:'80%'}}
                          onChange={(e=>setQuestion(e.target.value))}/>
-              <button theme="primary">Send</button>
+              <button theme="primary" onClick={send}>Send</button>
+          </div>
+          <div>
+              <Markdown>
+                  {response}
+              </Markdown>
           </div>
       </div>
     );

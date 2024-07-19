@@ -23,9 +23,12 @@
     "@vaadin/vaadin-themable-mixin": "24.4.2",
     "@vaadin/vaadin-usage-statistics": "2.1.2",
     "bootstrap": "^5.3.3",
+    "compose": "^0.1.2",
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
+    "docker": "^1.0.0",
     "lit": "3.1.4",
+    "markdown": "^0.5.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.23.1"
@@ -116,7 +119,7 @@
       "workbox-core": "7.1.0",
       "workbox-precaching": "7.1.0"
     },
-    "hash": "a32c00b371a2d2545861a75116a8e5da8a82027f1b3cbd3b1e19581dd232140a"
+    "hash": "e6a492d65be7638b515faf92b30e792dd34b31acf285e1ed403cf82b90347874"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -144,6 +147,9 @@
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
     "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
-    "bootstrap": "$bootstrap"
+    "bootstrap": "$bootstrap",
+    "markdown": "$markdown",
+    "compose": "$compose",
+    "docker": "$docker"
   }
 }
